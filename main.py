@@ -138,7 +138,7 @@ def main():
         appreciation = row['Appreciation']
 
         image_path = os.path.join(os.getcwd(), os.getenv('IMAGE'))
-
+        time.sleep(1)
         # Fill out the form with the data
         text_input('Your email', staff_email)
 
